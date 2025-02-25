@@ -20,6 +20,7 @@ let num1=parseInt(prompt("Enter 1st number"))
 let num2=parseInt(prompt("Enter 2nd number"))
   a=num1+num2;
 document.write(a*a)
+document.write("hello Everyone")
 
 
 
