@@ -4,9 +4,29 @@
 // (Doubleclick)
 // (Onmouseenter)
 
-function fun()
-{
-    let a=document.getElementById('head')
-    a.textContent="Zero"
+// function fun()
+// {
+//     let a=document.getElementById('head')
+//     a.textContent="Zero"
     
+// }
+
+function red()
+{
+    let a=document.body
+    a.style.backgroundColor="red"
 }
+
+function blue()
+{
+    let a=document.body
+    a.style.backgroundColor="blue"
+}
+
+function yellow()
+{
+    let a=document.body
+    a.style.backgroundColor="yellow"
+}
+
+
