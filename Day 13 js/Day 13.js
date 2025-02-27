@@ -20,32 +20,32 @@
 
 function app()
 {
-let a=document.body
-Img.src=""
+let a=document.getElementById('imge')
+a.src="apple.jpg"
 
 }
 function or()
 {
-let a=document.body
-Img.src=""
+let a=document.getElementById('imge')
+a.src="orange.jpg"
 
 }
 function wa()
 {
-let a=document.body
-Img.src=""
+let a=document.getElementById('imge')
+a.src="watermelon.jpg"
 
 }
 function pi()
 {
-let a=document.body
-Img.src=""
+let a=document.getElementById('imge')
+a.src="pineapple.jpg"
 
 }
 function sa()
 {
-let a=document.body
-Img.src=""
+let a=document.getElementById('imge')
+a.src=""
 
 }
 
