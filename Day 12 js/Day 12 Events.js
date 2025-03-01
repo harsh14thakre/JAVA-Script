@@ -30,3 +30,7 @@ function yellow()
 }
 
 
+
+
+//For right click
+// oncontextmenu="fun()"
