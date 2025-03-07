@@ -30,9 +30,11 @@ function num(){
 }
 
 
+
 function stp(){
     clearInterval(st)
 }
+
 
 
 
