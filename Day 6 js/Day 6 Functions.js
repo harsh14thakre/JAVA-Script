@@ -22,7 +22,7 @@
         // Sum()
 
 
-        // We can call funtion mutiple times it defines is reusability
+        // We can call function mutiple times it defines is reusability
 
 
 

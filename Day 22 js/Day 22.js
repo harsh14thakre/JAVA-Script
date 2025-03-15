@@ -21,7 +21,20 @@ a.innerHTML="This is javascript"
     //     b.style.backgroundColor="red"
     // }
 
-    // ///Q5 
+      
+    //Q3. Create a function that adds a new <li> item with the text "New item" to the unordered list with the ID Mylist.
+
+    let celement=document.createElement("li")
+    celement.textContent="New item"
+    let bd=document.body
+    bd.append(celement)
+
+
+
+
+
+
+    // ///Q5 Create five headings [laptop,mobile,tablet,camera,tv] and aside put an image ,When user hover on any heading so image will change according toheadings.
 
 
 
@@ -61,7 +74,12 @@ a.innerHTML="This is javascript"
        a.src="tv.jpg"
     }
 
-    let hidenbtn=document.querySelector("")
+
+    function hide()
+    { 
+    let hidenbtn=document.querySelector("#hidebtn")
+    hidenbtn.innerHTML=""
+    }
     
 
 

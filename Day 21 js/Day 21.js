@@ -24,7 +24,7 @@
 
 //   let arr2 = [12,34.5,'Cybrom',true]
 
-//   for (let vl of arr1)
+//   for (let vl of arr1)  // for writing array elements
 //   {
 //     console.log(vl)
 //   }
