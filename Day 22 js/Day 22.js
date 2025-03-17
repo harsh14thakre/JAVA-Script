@@ -24,11 +24,15 @@ a.innerHTML="This is javascript"
       
     //Q3. Create a function that adds a new <li> item with the text "New item" to the unordered list with the ID Mylist.
 
-    let celement=document.createElement("li")
-    celement.textContent="New item"
-    let bd=document.body
-    bd.append(celement)
-
+    let a=document.querySelector('#mylist')
+      
+    function nlist()
+    {
+        let celement=document.createElement("li")
+        celement.textContent="New item"
+        let bd=document.body  
+        bd.append(celement)
+    }
 
 
 
@@ -77,8 +81,8 @@ a.innerHTML="This is javascript"
 
     function hide()
     { 
-    let hidenbtn=document.querySelector("#hidebtn")
-    hidenbtn.innerHTML=""
+    let hidenbtn=document.querySelector('#hidebtn')
+    hidenbtn.innerHTML=" "
     }
     
 
