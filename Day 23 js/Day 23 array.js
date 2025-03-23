@@ -4,7 +4,7 @@
 // // add elements in the last
 // console.log(arr)
 
-// arr.unshift("first element","5","20") // add elements from begginiing
+// arr.unshift("first element","5","20") // add elements from beggining
 // console.log(arr)
 
 // arr.pop()                     //removes last element
@@ -19,18 +19,18 @@
 
 
 
-// let arr2=[1,2,3,45,6,7,5,89,10,34,76,87]
+let arr2=[1,2,3,45,6,7,5,89,10,34,76,87]
 
-// let interval=arr2.slice(2,11)
+let interval=arr2.slice(2,11)
 
 
-// for(let i=0; i<10; ++i)
-// {
-//     if(interval[i]%2==0)
-//     {
-//         console.log(interval[i])
-//     }
-// }
+for(let i=0; i<10; ++i)
+{
+    if(interval[i]%2==0)
+    {
+        console.log(interval[i])
+    }
+}
 
 
 
@@ -44,26 +44,26 @@
 // console.log(arr3)
 
 
-let arr4=["Cybrom",26,"Milan",46]
+// let arr4=["Cybrom",26,"Milan",46]
 
-arr4.splice(2,1,"Manohar")  
-console.log(arr4)
+// arr4.splice(2,1,"Manohar")  
+// console.log(arr4)
 
-//Destructuring of array 
+// //Destructuring of array 
 
-let [name,age,shop,contact]=["Cybrom",26,"Milan",46]
-console.log(shop)
+// let [name,age,shop,contact]=["Cybrom",26,"Milan",46]
+// console.log(shop)
 
-let arr5=[name,age,shop,contact]   
-let arr6=["Cybrom",26,"Milan",46]
-let arr7=[arr5,arr6]
-console.log(arr7)
+// let arr5=[name,age,shop,contact]   
+// let arr6=["Cybrom",26,"Milan",46]
+// let arr7=[arr5,arr6]
+// console.log(arr7)
 
-//Spread operator/rest operator it merges multiple arrays
+// //Spread operator/rest operator it merges multiple arrays
 
-let arr8=[name,age,shop,contact]
-let arr9=["Cybrom",26,"Milan",46]
-let arr10=[...arr8,...arr9]
-console.log(arr10)
+// let arr8=[name,age,shop,contact]
+// let arr9=["Cybrom",26,"Milan",46]
+// let arr10=[...arr8,...arr9]
+// console.log(arr10)
 
 

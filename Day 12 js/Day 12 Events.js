@@ -11,26 +11,48 @@
     
 // }
 
-function red()
-{
-    let a=document.body
-    a.style.backgroundColor="red"
-}
+// function red()
+// {
+//     let a=document.body
+//     a.style.backgroundColor="red"
+// }
 
-function blue()
-{
-    let a=document.body
-    a.style.backgroundColor="blue"
-}
+// function blue()
+// {
+//     let a=document.body
+//     a.style.backgroundColor="blue"
+// }
 
-function yellow()
-{
-    let a=document.body
-    a.style.backgroundColor="yellow"
-}
+// function yellow()
+// {
+//     let a=document.body
+//     a.style.backgroundColor="yellow"
+// }
 
 
 
 
 //For right click
 // oncontextmenu="fun()"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

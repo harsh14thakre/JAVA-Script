@@ -2,7 +2,7 @@
 
         // function is a block of code and set of instructions 
         // used for reuseability
-        // and divid our code in sub programs
+        // and divid our code in sub programs 
 
 
 
