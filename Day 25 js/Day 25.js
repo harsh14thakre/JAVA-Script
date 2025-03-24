@@ -44,11 +44,16 @@ for(let k in person)
 let k= Object.keys(person)
 console.log(k[0]);
 
+let {name,age,contact}={name : "Harsh", age:20, contact:456}
+
+console.log(name);
+
 //                 Object does not support for of loop
 
 // for print the values of keys using for in loop
 //Syntax console.log(obj1[v])
 
 //
+
 
 
