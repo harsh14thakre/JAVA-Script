@@ -1,0 +1,36 @@
+{
+
+    "hotel":[
+
+        {
+            "name": "Harsh thakre",
+            "age":  20,
+            "adharNO": "1234567898",
+            "checkin":"01-02-2025",
+            "checkout":"04-02-2025",
+            "mobileno":9825467812,
+            "person": 5,
+            "price":2500
+        },
+        {
+            "name": "Dharmendr chilate",
+            "age":  20,
+            "adharNO": "1234567898",
+            "checkin":"03-03-2025",
+            "checkout":"04-03-2025",
+            "mobileno":8109577675,
+            "person": 5,
+            "price":2500
+        },
+        {
+            "name": "Amar nath",
+            "age":  20,
+            "adharNO": "1234567898",
+            "checkin":"06-03-2025",
+            "checkout":"06-07-2025",
+            "mobileno":9098024588,
+            "person": 5,
+            "price":2500
+        }    
+    ]
+}

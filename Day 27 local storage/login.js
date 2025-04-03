@@ -9,15 +9,9 @@
 // local storage me data set key value ke formate me hoga 
 // key value ka type string hoga
 
-
-let signf = document.querySelector('#signf')
-let logf = document.querySelector('#logf')
-
 function sign(){
-
-let uname=document.querySelector('#uname').value
+  let uname=document.querySelector('#uname').value
 let upass=document.querySelector('#upass').value
-    
      if(upass==""){
         alert("please Enetr the password")
         document.querySelector('#upass').focus()
@@ -29,20 +23,27 @@ let upass=document.querySelector('#upass').value
         return false
       }
       localStorage.setItem("Username",uname)
-      localStorage.setItem("Userpass",upass)
-
+      localStorage.setItem("Userpass",upass)     
 location.href="./login.html"
       return false
 }
 
 
-
 function log(){
-  let loginname=document.querySelector('#loginname')
+  let loginname=document.querySelector('#loginname').value
+  let loginpass=document.querySelector('#loginpass').value
 
+  let name=localStorage.getItem("Username")
+  let password=localStorage.getItem("Userpass")
+
+  if(loginname == name && loginpass==password){
+    document.writeln( "<h1>🙏Login Successful 🙏😊</h1>")
+  }
+  else{
+    alert("User Not found");
+  }
+ return false
 }
-
-
 
 
 //                      key      value
