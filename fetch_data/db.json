@@ -1,0 +1,66 @@
+{
+    "Coaching":[
+
+        {
+            "name":"Harsh thakre",
+            "batch":"P47",
+            "age":20,
+            "cource":"Python fullstack",
+            "college":"SIRT",
+            "mobile_no":8871525648,
+            "fees":45000
+            
+        },
+        {
+            "name":"Harshal thakre",
+            "batch":"P47",
+            "age":20,
+            "cource":"Python fullstack",
+            "college":"Oriental",
+            "mobile_no":5468791234,
+            "fees":45000
+            
+        },
+        {
+            "name":"Amar nath",
+            "batch":"P47",
+            "age":32,
+            "cource":"Mern fullstack",
+            "college":"SIRT",
+            "mobile_no":98546612735,
+            "fees":45000
+            
+        },
+        {
+            "name":"Dharmendra chilate",
+            "batch":"P47",
+            "age":20,
+            "cource":"Python fullstack",
+            "college":"SIRT",
+            "mobile_no":9098026544,
+            "fees":45000
+            
+        },
+        {
+            "name":"Nikhil patel",
+            "batch":"P47",
+            "age":20,
+            "cource":"JAVA fullstack",
+            "college":"Oriental",
+            "mobile_no":98546784123,
+            "fees":45000
+            
+        },
+        {
+            "name":"Vaibhav sharma",
+            "batch":"P47",
+            "age":20,
+            "cource":"JAVA fullstack",
+            "college":"LNCT",
+            "mobile_no":80215468715,
+            "fees":45000
+            
+        }
+        
+    ]
+}
