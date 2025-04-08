@@ -19,12 +19,12 @@ let upass=document.querySelector('#upass').value
       }
       else if(!(upass.match(/[@_#]/))){
         alert("please use speacial character")
-        document.querySelector('#pass').focus()
+        document.querySelector('#upass').focus()
         return false
       }
       localStorage.setItem("Username",uname)
       localStorage.setItem("Userpass",upass)     
-location.href="./login.html"
+location.href="./log.html"        //after signup to jump on login
       return false
 }
 

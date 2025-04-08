@@ -39,6 +39,16 @@
       "mobile_no": 98546784123,
       "fees": 45000,
       "id": "3819"
+    },
+    {
+      "id": "eadd",
+      "name": "Harsh Thakre",
+      "batch": "p47",
+      "age": "55",
+      "cource": "python fullstack",
+      "college": "SIRT",
+      "mobile_no": "8871523269",
+      "fees": "45000"
     }
   ]
 }
