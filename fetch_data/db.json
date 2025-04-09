@@ -49,6 +49,26 @@
       "college": "SIRT",
       "mobile_no": "8871523269",
       "fees": "45000"
+    },
+    {
+      "id": "5463",
+      "name": "Harsh Thakre",
+      "batch": "p47",
+      "age": "55",
+      "cource": "python fullstack",
+      "college": "SIRT",
+      "mobile_no": "8871523269",
+      "fees": "45000"
+    },
+    {
+      "id": "b494",
+      "name": "dharmendra",
+      "batch": "p47",
+      "age": "20",
+      "cource": "python fullstack",
+      "college": "SIRT",
+      "mobile_no": "8871523269",
+      "fees": "45000"
     }
   ]
 }

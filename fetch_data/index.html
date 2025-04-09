@@ -6,11 +6,34 @@
     <title>Document</title>
 </head>
 <body onload="fetchData()">
-    
+
+    <form action="">
+
+        Enter Name: <input type="text" id="name"> <br> <br>
+        Enter Batch: <input type="text" id="batch"> <br> <br>
+        Enter Age: <input type="text" id="age"> <br> <br>
+        Enter Cource: <input type="text" id="cource"> <br> <br>
+        Enter College: <input type="text" id="college"> <br> <br>
+        Enter Mobile.no: <input type="text" id="mobile"> <br> <br>
+        Enter Fees: <input type="text" id="fees"> <br> <br>
+        <!-- Enter Country: <select id="Country">
+        <option value="India">India</option>
+        <option value="USA">USA</option>
+        <option value="China">China</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Russia">Russia</option>
+        <option value="Switzerland">Switzerland</option> -->
+        
+        <!-- </select> -->
+         <br>  
+        <input type="submit" value="Booknow" onclick="return book()">
+        </form>
+        <br> <br>
+
+ 
     <table border="1">
         <thead>
-            <tr>
-            
+            <tr>         
             <th>Name</th>
             <th>Batch</th>
             <th>Age</th>
@@ -24,12 +47,17 @@
         </thead>
 
         <tbody id="showData">
-
         </tbody>
         
     </table>
 
+    <div id="formfill">
 
+    </div>
+
+
+
+   
 
     <script src="./db.js">
 
