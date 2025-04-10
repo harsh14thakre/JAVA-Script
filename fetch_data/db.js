@@ -15,7 +15,8 @@ let fetchData=async()=>{
         <td>${e.college}</td>
         <td>${e.mobile_no}</td>
         <td>${e.fees}</td>
-        <td onclick="Del('${e.id}')"> Delete</td>    
+        <td onclick="Del('${e.id}')"> Delete</td> 
+        <td onclick="Upd('${e.id}')">Edit<td/>   
         </tr>           
         `
     })
@@ -107,7 +108,7 @@ let finalupdate=(id)=>{
     let inpmobile=document.querySelector('#upmobile').value
     let inpfees=document.querySelector('#upfees').value
 
-    let url="http://localhost:3000/Coaching/${id}"
+    let url=`http://localhost:3000/Coaching/${id}`
 
     fetch(url,{
 
